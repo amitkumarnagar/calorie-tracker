@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" errors="0" time="6.41">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2021-04-11T05:20:44" time="3.359" tests="2">
+    <testcase classname=" document should contain My Daily Calorie Tracker" name=" document should contain My Daily Calorie Tracker" time="0.083">
+    </testcase>
+    <testcase classname=" should calculate today calorie consumed" name=" should calculate today calorie consumed" time="0.018">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;meal_breakfast_cowmilk_167&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;div
+        class=&quot;header&quot;
+      &gt;
+        &lt;h1&gt;
+          My Daily Calorie Tracker
+        &lt;/h1&gt;
+        &lt;h1
+          testid=&quot;final_calorie_consumed_message&quot;
+        &gt;
+          I, consumed 
+          0
+          /1868 Cal Today
+        &lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;meal-container&quot;
+      &gt;
+        &lt;div
+          class=&quot;meal-type&quot;
+        &gt;
+          &lt;h1&gt;
+            Breakfast (0/498)
+          &lt;/h1&gt;
+          &lt;ul /&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;meal-type&quot;
+        &gt;
+          &lt;h1&gt;
+            Morning Snack (0/187)
+          &lt;/h1&gt;
+          &lt;ul /&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;meal-type&quot;
+        &gt;
+          &lt;h1&gt;
+            Lunch (0/498)
+          &lt;/h1&gt;
+          &lt;ul /&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;meal-type&quot;
+        &gt;
+          &lt;h1&gt;
+            Evening Snacks (0/187)
+          &lt;/h1&gt;
+          &lt;ul /&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;meal-type&quot;
+        &gt;
+          &lt;h1&gt;
+            Dinner (0/498)
+          &lt;/h1&gt;
+          &lt;ul /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/amitkumar/Projects/T/calorietracker/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/amitkumar/Projects/T/calorietracker/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/amitkumar/Projects/T/calorietracker/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByTestId (/Users/amitkumar/Projects/T/calorietracker/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at Object.&lt;anonymous&gt; (/Users/amitkumar/Projects/T/calorietracker/src/App.test.js:36:26)
+    at Promise.then.completed (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/utils.js:276:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/utils.js:216:10)
+    at _callCircusTest (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/run.js:212:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _runTest (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/run.js:63:9)
+    at run (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-runner/build/runTest.js:472:34)
+    at Object.worker (/Users/amitkumar/Projects/T/calorietracker/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
